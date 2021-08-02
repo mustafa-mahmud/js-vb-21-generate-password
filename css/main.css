@@ -1,0 +1,123 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  background-color: #5DADE2;
+}
+
+.container-pass {
+  width: 35rem;
+  height: 4rem;
+  border-radius: 5px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-pass input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 5px 1rem;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  letter-spacing: 1.5px;
+  font-size: 1.5rem;
+  color: #333;
+  border: none;
+  outline: none;
+}
+
+.container-pass input::-webkit-input-placeholder {
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+}
+
+.container-pass input:-ms-input-placeholder {
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+}
+
+.container-pass input::-ms-input-placeholder {
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+}
+
+.container-pass input::placeholder {
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+}
+
+.container-pass i {
+  display: inline-block;
+  width: 3rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.container-gnr {
+  width: 35rem;
+  height: 4rem;
+  border-radius: 5px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1rem;
+}
+
+.container-gnr input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 5px 1rem;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+  color: #333;
+}
+
+.container-gnr i {
+  display: inline-block;
+  width: 3rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
